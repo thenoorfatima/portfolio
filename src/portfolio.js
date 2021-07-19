@@ -44,7 +44,7 @@ const skillsSection = {
     emoji(
       "⚡ My domain of work lies in Data Science Research, Image Processing and Computer Vison."
     ),
-    emoji("⚡ Scopus SCI-recognised researcher, a full-stack developer"),
+    emoji("⚡ Scopus and SCI-recognised researcher, a full-stack developer"),
     emoji(
       "⚡ Graphic Designer with a decent command in App development"
     )
@@ -61,10 +61,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -186,7 +182,7 @@ const workExperiences = {
       company: "Coedify Technologies",
       companylogo: require("./assets/images/coedifylogo.png"),
       date: "2020 – Present",
-      desc: "Worked as a Graphic Designer and Web Devloper"
+      desc: "Worked as a Graphic Designer and Web Developer"
     }
   ]
 };
@@ -263,9 +259,9 @@ const achievementSection = {
     },
 
     {
-      title: "Top 10 HackVSIT hackathon",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/hackvsitlogo.png"),
+      title: "Official Photographer CSD",
+      subtitle: "Selected as official photograpger for Department of Computer Science, AMU",
+      image: require("./assets/images/photographerlogo.png"),
       footerLink: [
       ]
     }

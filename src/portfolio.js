@@ -44,7 +44,7 @@ const skillsSection = {
     emoji(
       "⚡ My domain of work lies in Data Science Research, Image Processing and Computer Vison."
     ),
-    emoji("⚡ Scopus and SCI-recognised researcher, a full-stack developer"),
+    emoji("⚡ SCI and Scopus-recognised researcher, a full-stack developer"),
     emoji(
       "⚡ Graphic Designer with a decent command in App development"
     )
@@ -167,7 +167,7 @@ const workExperiences = {
       desc: "Google DSC Lead of Aligarh Muslim University, India",
       descBullets: [
         "Leader of the first Google Developer Student Club of the University",
-        "Organiser: hackathons, events, internships and workshops."
+        "Organiser of hackathons, events, internships and workshops."
       ]
     },
     {
@@ -182,7 +182,7 @@ const workExperiences = {
       company: "Coedify Technologies",
       companylogo: require("./assets/images/coedifylogo.png"),
       date: "2020 – Present",
-      desc: "Worked as a Graphic Designer and Web Developer"
+      desc: "Worked as a Graphical Designer and Web Developer"
     }
   ]
 };
@@ -204,7 +204,7 @@ const bigProjects = {
     {
       image: require("./assets/images/amusquarelogo.png"),
       projectName: "PathLab Portal, JNMC AMU",
-      projectDesc: "Designed a Virtual Lab Website for Jawaharlal Nehru Medical College,AMU",
+      projectDesc: "Designed a Virtual Laboratory Website for Jawaharlal Nehru Medical College, AMU",
       footerLink: [
         {
           name: "Visit Website",

@@ -166,8 +166,8 @@ const workExperiences = {
       date: "June 2021 – Present",
       desc: "Google DSC Lead of Aligarh Muslim University, India",
       descBullets: [
-        "Active member, co-ordinator and mentor at CSS AMU",
-        "Organised hackathons, events and workshops."
+        "Leader of the first Google Developer Student Club of the University",
+        "Organiser: hackathons, events, internships and workshops."
       ]
     },
     {
@@ -260,7 +260,7 @@ const achievementSection = {
 
     {
       title: "Official Photographer CSD",
-      subtitle: "Selected as official photograpger for Department of Computer Science, AMU",
+      subtitle: "Official Photographer of the Department of Computer Science, AMU",
       image: require("./assets/images/photographerlogo.png"),
       footerLink: [
       ]

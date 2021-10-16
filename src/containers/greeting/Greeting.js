@@ -38,14 +38,14 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="button-greeting-div">
+              {/* <div className="button-greeting-div">
                 <Button
                     text="See my resume"
                     newTab={true}
                     href={greeting.resumeLink}
                 />
                 <Button text="View CV" newTab={true} href={greeting.cvLink} />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="greeting-image-div">

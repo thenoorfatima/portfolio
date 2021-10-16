@@ -17,8 +17,8 @@ const greeting = {
     "I'm a student of Master's of Computer Applications Program from Aligarh Muslim University, India and researching in Data Science and Image Processing. I'm also a full stack Web & App Developer and have a deep interest in Photography, Sports, Graphics and Arts."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/18uY8IEY0PFrqVdCaJ06VoLpTEHaqyHDh/view?usp=sharing",
-  cvLink: "https://drive.google.com/file/d/1LkzMJhY9qlH0NjXzNcG7_YAtLkiyofCp/view?usp=sharing",
+    "#",
+  cvLink: "#",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

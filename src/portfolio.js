@@ -22,7 +22,7 @@ const socialMediaLinks = {
   github: "https://github.com/thenoorfatima",
   linkedin: "https://www.linkedin.com/in/thenoorfatima/",
   gmail: "noor14fatima@gmail.com",
-  medium: "https://medium.com/@noor14fatima",
+  medium: "https://medium.com/@thenoorfatima",
   instagram: "https://instagram.com/the_noorfatima",
   twitter: "https://twitter.com/the_noorfatima",
   // Instagram and Twitter are also supported in the links!

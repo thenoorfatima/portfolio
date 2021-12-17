@@ -258,17 +258,15 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I WORKED ON",
   projects: [
     {
-      image: require("./assets/images/amusquarelogo.png""),
+      image: require("./assets/images/amusquarelogo.png"),
       projectName: "GANs For Image Super-Resolution",
       projectDesc: "Employed GANs for improving satellite images from the Department of Remote sensing and GIS, AMU."
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/fai.png"),
       projectName: "Price Optimization of various brands on Online Marketing Platforms",
       projectDesc: "Designed a Virtual Laboratory Website for Jawaharlal Nehru Medical College, AMU"
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -293,7 +291,6 @@ const bigProjects = {
 };
 
 // Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Responsibilities & Achievements 🏆 "),
@@ -352,10 +349,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true

@@ -35,6 +35,56 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
+// Blogs Section
+
+const blogSection = {
+  title: "Research Publications",
+  subtitle:
+    "Research Papers that I've published",
+
+  blogs: [
+    {
+      url: "https://ifst.onlinelibrary.wiley.com/doi/10.1111/jfpp.16043",
+      title: "Siamese Network-Based Computer Vision Approach to Detect Papaya Seed Adulteration in Black Peppercorns",
+      description:
+        "Journal of Food Processing and Preservation, Wiley (2.19 IF)."
+    },
+     {
+      title: "Tracing Adulteration in Cumin, Cinnamon, and Coffee using Transfer Learning",
+      description:
+        "International Conference on Data Analytics for Business and Industry, Bahrain (Oct 25 – 26, 2021)."
+    },
+     {
+      title: "AI Art Critic: Artistic Classification of Poster Images using Neural Networks",
+      description:
+        "International Conference on Data Analytics for Business and Industry, Bahrain (Oct 25 – 26, 2021)."
+    },
+     {
+      title: "Disease and Quality Prediction of Potatoes using Computer Vision",
+      description:
+        "ACCEPTED in Advances in Distributed Computing and Artificial Intelligence Journal (ADCAIJ) - Journal of the University of Salamanca, Spain (ESCI Indexed)."
+    },
+     {
+      title: "Machine Learning based Prediction and Analysis of River Water Metal Toxicity",
+      description:
+        "ACCEPTED in Advances in Distributed Computing and Artificial Intelligence Journal (ADCAIJ) - Journal of the University of Salamanca, Spain (ESCI Indexed)."
+    },
+    {
+      url: "https://doi.org/10.1109/IVCNZ51579.2020.9290737",
+      title: "AI in Photography: Scrutinizing Implementation of Super-Resolution Techniques in Photo-Editors",
+      description:
+        "IEEE (Scopus Indexed) 35th International Conference on Image and Vision Computing NewZealand - IVCNZ 2020 (November 25 - 27, 2020)."
+    },
+    {
+      url: "https://doi.org/10.14201/ADCAIJ2020927990",
+      title: "Enhancing Performance of a Deep Neural Network: A Comparative Analysis of Optimization Algorithms",
+      description:
+        "Publisher: Advances in Distributed Computing and Artificial Intelligence Journal (ADCAIJ) - Journal of the University of Salamanca, Spain (ESCI Indexed)."
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 // Skills Section
 
 const skillsSection = {
@@ -159,6 +209,13 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+     {
+      role: "Research Intern",
+      company: "IIT Kharagpur",
+      companylogo: require("./assets/images/iitklogo.png"),
+      date: "Dec 2021 – Present",
+      desc: "Winter Research Intern at SWAN Labs - IIT Kharagpur under Prof. Sudip Misra"
+    },
     {
       role: "DSC Lead",
       company: "Google Developer Student Club",
@@ -166,7 +223,7 @@ const workExperiences = {
       date: "June 2021 – Present",
       desc: "Google DSC Lead of Aligarh Muslim University, India",
       descBullets: [
-        "Leader of the first Google Developer Student Club of the University",
+        "Lead of the first Google Developer Student Club of the University",
         "Organiser of hackathons, events, internships and workshops."
       ]
     },
@@ -174,8 +231,15 @@ const workExperiences = {
       role: "Data Annotator",
       company: "IIT Delhi",
       companylogo: require("./assets/images/iitdlogo.png"),
-      date: "Feb 2021 – Present",
+      date: "Feb – Oct 2021",
       desc: "Project: Optical Character and Hand-Written Text Recognition for Indian Languages (Under Grand Challenge Scheme - 2) of IRD"
+    },
+    {
+      role: "Data Science Fellow",
+      company: "Fellowship.ai",
+      companylogo: require("./assets/images/fai.png"),
+      date: "Sept – Dec 2021",
+      desc: "Worked on real life industry based projects."
     },
     {
       role: "Graphic Designer and Developer",
@@ -269,29 +333,6 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
-const blogSection = {
-  title: "Research Publications",
-  subtitle:
-    "Research Papers that I've published",
-
-  blogs: [
-    {
-      url: "https://doi.org/10.1109/IVCNZ51579.2020.9290737",
-      title: "AI in Photography: Scrutinizing Implementation of Super-Resolution Techniques in Photo-Editors",
-      description:
-        "IEEE (Scopus Indexed) 35th International Conference on Image and Vision Computing NewZealand - IVCNZ 2020 (November 25 - 27, 2020)."
-    },
-    {
-      url: "https://doi.org/10.14201/ADCAIJ2020927990",
-      title: "Enhancing Performance of a Deep Neural Network: A Comparative Analysis of Optimization Algorithms",
-      description:
-        "Publisher: Advances in Distributed Computing and Artificial Intelligence Journal (ADCAIJ) - Journal of the University of Salamanca, Spain (ESCI Indexed)."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Talks Sections
 

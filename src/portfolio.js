@@ -263,9 +263,11 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME PROJECTS THAT I WORKED ON",
   projects: [
-     {
-      image: require("./assets/images/iitdlogo.png"),
-      projectName: "Air Quality Index analysis and forecasting for multiple sites in Delhi.",
+    {
+      image: require("./assets/images/amusquarelogo.png""),
+      projectName: "GANs For Image Super-Resolution",
+      projectDesc: "Employed GANs for improving satellite images from the Department of Remote sensing and GIS, AMU."
+        //  you can add extra buttons here.
       ]
     },
     {

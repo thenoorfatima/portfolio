@@ -261,19 +261,16 @@ const bigProjects = {
       image: require("./assets/images/amusquarelogo.png"),
       projectName: "GANs For Image Super-Resolution",
       projectDesc: "Employed GANs for improving satellite images from the Department of Remote sensing and GIS, AMU."
-      ]
     },
     {
       image: require("./assets/images/fai.png"),
       projectName: "Price Optimization of various brands on Online Marketing Platforms",
       projectDesc: "Designed a Virtual Laboratory Website for Jawaharlal Nehru Medical College, AMU"
-      ]
     },
     {
       image: require("./assets/images/amusquarelogo.png"),
       projectName: "PathLab Portal, JNMC AMU",
       projectDesc: "Designed a Virtual Laboratory Website for Jawaharlal Nehru Medical College, AMU",
-      ]
     },
     {
       image: require("./assets/images/amucalendarlogo.png"),

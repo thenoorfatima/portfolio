@@ -259,22 +259,26 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
-
 const bigProjects = {
   title: "Projects",
   subtitle: "SOME PROJECTS THAT I WORKED ON",
   projects: [
+     {
+      image: require("./assets/images/iitdlogo.png"),
+      projectName: "Air Quality Index analysis and forecasting for multiple sites in Delhi.",
+      ]
+    },
+    {
+      image: require("./assets/images/fai.png"),
+      projectName: "Price Optimization of various brands on Online Marketing Platforms",
+      projectDesc: "Designed a Virtual Laboratory Website for Jawaharlal Nehru Medical College, AMU"
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/amusquarelogo.png"),
       projectName: "PathLab Portal, JNMC AMU",
       projectDesc: "Designed a Virtual Laboratory Website for Jawaharlal Nehru Medical College, AMU",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.amu.ac.in/department/pathology"
-        }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -283,7 +287,7 @@ const bigProjects = {
       projectDesc: "App developer, worked on React Native and Django Rest Framework",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Code",
           url: "https://github.com/CSS-AMU/amu-calendar-app"
         }
       ]
@@ -301,6 +305,14 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+     {
+      title: "Women Tech Global Awards 2021 Winner",
+      subtitle:
+        "Was awarded the Golden Prize in IT Graduate Category",
+      image: require("./assets/images/women.png"),
+      footerLink: [
+      ]
+    },
     {
       title: "IEEE Ambasaddor",
       subtitle:
@@ -385,14 +397,14 @@ export {
   illustration,
   greeting,
   socialMediaLinks,
+  blogSection,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
+  techStack,
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
   talkSection,
   podcastSection,
   contactInfo,

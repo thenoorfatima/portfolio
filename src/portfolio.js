@@ -1,9 +1,3 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
-// Summary And Greeting Section
-
 import emoji from "react-easy-emoji";
 
 const illustration = {
@@ -14,7 +8,7 @@ const greeting = {
   username: "Noor Fatima",
   title: "Hi all, I'm Noor",
   subTitle: emoji(
-    "I'm a student of Master's of Computer Applications Program from Aligarh Muslim University, India and researching in Data Science and Image Processing. I'm also a full stack Web & App Developer and have a deep interest in Photography, Sports, Graphics and Arts."
+    "I am a Master's of Computer Applications student researching data science and machine learning. She's also a full-stack Software (Web & App) Developer and holds a deep interest in Sports, Graphics, and Arts with an eye for aesthetic photography."
   ),
   resumeLink:
     "#",
@@ -302,7 +296,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Responsibilities & Achievements 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -391,7 +385,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "twitter",
   display: true // Set true to display this section, defaults to false
 };
 

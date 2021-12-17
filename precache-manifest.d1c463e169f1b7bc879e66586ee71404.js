@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6cbd570f8a738949ab86071eeac6e46b",
+    "revision": "a764c182da8518f5b7683dd2b8c0c8e1",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "dbcb76114be7fd8e0b8f",
+    "revision": "8f3b7c3bfb9732bc73a8",
     "url": "/portfolio/static/css/3.25727338.chunk.css"
   },
   {
-    "revision": "aa408dcbb0b6741b8535",
+    "revision": "2bc3619e3f5f65d5b850",
     "url": "/portfolio/static/css/4.a8329f31.chunk.css"
   },
   {
-    "revision": "9123b6b5fa73491b13a4",
+    "revision": "d1f411c0bcac887cfb21",
     "url": "/portfolio/static/css/main.27c4abca.chunk.css"
   },
   {
-    "revision": "fc7a2c2388b4fbc313c0",
-    "url": "/portfolio/static/js/2.3453d289.chunk.js"
+    "revision": "3a20c02f18a92e6b07b7",
+    "url": "/portfolio/static/js/2.8e245c87.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/portfolio/static/js/2.3453d289.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.8e245c87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dbcb76114be7fd8e0b8f",
-    "url": "/portfolio/static/js/3.070aa34b.chunk.js"
+    "revision": "8f3b7c3bfb9732bc73a8",
+    "url": "/portfolio/static/js/3.ecb970d5.chunk.js"
   },
   {
-    "revision": "aa408dcbb0b6741b8535",
-    "url": "/portfolio/static/js/4.c098b27b.chunk.js"
+    "revision": "2bc3619e3f5f65d5b850",
+    "url": "/portfolio/static/js/4.e429738c.chunk.js"
   },
   {
-    "revision": "9123b6b5fa73491b13a4",
-    "url": "/portfolio/static/js/main.15a49b29.chunk.js"
+    "revision": "d1f411c0bcac887cfb21",
+    "url": "/portfolio/static/js/main.6a257163.chunk.js"
   },
   {
-    "revision": "d36da217a7a7f28309e1",
-    "url": "/portfolio/static/js/runtime-main.8694013a.js"
+    "revision": "e4f6d02510d9b5b9a22b",
+    "url": "/portfolio/static/js/runtime-main.5be52b0c.js"
   },
   {
     "revision": "a3752c4bf72688b3db38d0911cf75f61",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "02b03d9681afd923d70389c41babbe29",
     "url": "/portfolio/static/media/iitdlogo.02b03d96.png"
+  },
+  {
+    "revision": "eb1b27ef0567505ae0c22f6c4b9c4075",
+    "url": "/portfolio/static/media/iitklogo.eb1b27ef.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",

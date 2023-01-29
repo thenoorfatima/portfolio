@@ -75,6 +75,8 @@ const blogSection = {
   ],
   display: true
 
+};
+
 // Skills Section
 
 const skillsSection = {
@@ -182,7 +184,7 @@ const workExperiences = {
         company: "York University",
         companylogo: require("./assets/images/mitacs.png"),
         date: "May 2022 – Oct 2022",
-        desc: "Graduate Research Intern invited by Canadian Government."
+        desc: "Graduate Research Intern invited by Canadian Government"
       },
      {
       role: "Research Intern",

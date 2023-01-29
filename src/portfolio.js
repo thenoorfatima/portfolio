@@ -1,19 +1,17 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: true
 };
 
 const greeting = {
   username: "Noor Fatima",
   title: "Hi all, I'm Noor",
-  subTitle: emoji(
-    "I am a Master's of Computer Applications student researching data science and machine learning. She's also a full-stack Software (Web & App) Developer and holds a deep interest in Sports, Graphics, and Arts with an eye for aesthetic photography."
+  subTitle: emoji("Noor is a student at Aligarh Muslim University pursuing her Master's in Computer Applications, majoring in Technical Research and Management. With an interest in sports, graphics, and the arts and an eye for aesthetic photography, she has experience as a Graphic Designer and Software (Web & App) Developer."
   ),
-  resumeLink:
-    "#",
+  resumeLink: "#",
   cvLink: "#",
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -25,8 +23,7 @@ const socialMediaLinks = {
   medium: "https://medium.com/@thenoorfatima",
   instagram: "https://instagram.com/the_noorfatima",
   twitter: "https://twitter.com/the_noorfatima",
-  // Instagram and Twitter are also supported in the links!
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Blogs Section
@@ -40,59 +37,52 @@ const blogSection = {
     {
       url: "https://ifst.onlinelibrary.wiley.com/doi/10.1111/jfpp.16043",
       title: "Siamese Network-Based Computer Vision Approach to Detect Papaya Seed Adulteration in Black Peppercorns",
-      description:
-        "Journal of Food Processing and Preservation, Wiley (2.19 IF)."
+      description:"Journal of Food Processing and Preservation, Wiley."
+    },
+    {
+        url:"https://linkinghub.elsevier.com/retrieve/pii/S1319157822002269",
+        title:"A systematic literature review of attribute based encryption in health services",
+        description:"Journal of King Saud University - Computer and Information Sciences, Elsevier."
     },
      {
+      url: "https://ieeexplore.ieee.org/document/9655951",
       title: "Tracing Adulteration in Cumin, Cinnamon, and Coffee using Transfer Learning",
-      description:
-        "International Conference on Data Analytics for Business and Industry, Bahrain (Oct 25 – 26, 2021)."
+      description:"International Conference on Data Analytics for Business and Industry, Bahrain (Oct 25 - 26, 2021)."
     },
      {
+      url: "https://ieeexplore.ieee.org/document/9655869",
       title: "AI Art Critic: Artistic Classification of Poster Images using Neural Networks",
-      description:
-        "International Conference on Data Analytics for Business and Industry, Bahrain (Oct 25 – 26, 2021)."
+      description:"International Conference on Data Analytics for Business and Industry, Bahrain (Oct 25 - 26, 2021)."
     },
      {
-      title: "Disease and Quality Prediction of Potatoes using Computer Vision",
-      description:
-        "ACCEPTED in Advances in Distributed Computing and Artificial Intelligence Journal (ADCAIJ) - Journal of the University of Salamanca, Spain (ESCI Indexed)."
+      title: "A Computer Vision-Based Quality Analysis of Potatoes",
+      description:"The 4th Sustainability and Resilience Conference: Design Innovation, Bahrain (Nov 01 - 02, 2022). Publisher: IEEE."
     },
      {
-      title: "Machine Learning based Prediction and Analysis of River Water Metal Toxicity",
-      description:
-        "ACCEPTED in Advances in Distributed Computing and Artificial Intelligence Journal (ADCAIJ) - Journal of the University of Salamanca, Spain (ESCI Indexed)."
+      title: "Machine Learning based Metal Toxicity Prediction and Analysis of River Ramganga",
+      description:"The 4th Sustainability and Resilience Conference: Design Innovation, Bahrain (Nov 01 - 02, 2022). Publisher: IEEE"
     },
     {
       url: "https://doi.org/10.1109/IVCNZ51579.2020.9290737",
       title: "AI in Photography: Scrutinizing Implementation of Super-Resolution Techniques in Photo-Editors",
-      description:
-        "IEEE (Scopus Indexed) 35th International Conference on Image and Vision Computing NewZealand - IVCNZ 2020 (November 25 - 27, 2020)."
+      description:"IEEE (Scopus Indexed) 35th International Conference on Image and Vision Computing NewZealand - IVCNZ 2020 (November 25 - 27, 2020)."
     },
     {
       url: "https://doi.org/10.14201/ADCAIJ2020927990",
       title: "Enhancing Performance of a Deep Neural Network: A Comparative Analysis of Optimization Algorithms",
-      description:
-        "Publisher: Advances in Distributed Computing and Artificial Intelligence Journal (ADCAIJ) - Journal of the University of Salamanca, Spain (ESCI Indexed)."
+      description:"Publisher: Advances in Distributed Computing and Artificial Intelligence Journal (ADCAIJ) - Journal of the University of Salamanca, Spain (ESCI Indexed)."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
-};
+  display: true
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Research in Data Science and Image Processing and a Developer",
-  skills: [
-    emoji(
-      "⚡ My domain of work lies in Data Science Research, Image Processing and Computer Vison."
-    ),
-    emoji("⚡ SCI and Scopus-recognised researcher, a full-stack developer"),
-    emoji(
-      "⚡ Graphic Designer with a decent command in App development"
-    )
-  ],
+  subTitle: "Research in Data Science, Bioinformatics and Image Processing",
+  skills: [("⚡ My domain of work lies in Data Science and Bioinformatics Research."),
+           ("⚡ SCI and Scopus-recognised researcher"),
+           ("⚡ Photographer and Graphical Designer")],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -115,45 +105,29 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "git",
-      fontAwesomeClassname: "fab fa-github"
+      skillName: "researchgate",
+      fontAwesomeClassname: "fa-brands fa-researchgate"
     },
     {
       skillName: "react",
       fontAwesomeClassname: "fab fa-react"
     },
-    // {
-    //   skillName: "nodejs",
-    //   fontAwesomeClassname: "fab fa-node"
-    // },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "brain-circuit",
+      fontAwesomeClassname: "fa-solid fa-brain-circuit"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "camera-retro",
+      fontAwesomeClassname: "fa-duotone fa-camera-retro"
     }
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "Aligarh Muslim Uiniversity",
@@ -177,22 +151,22 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
+// Your top 3 proficient experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Data Science", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Research",
+      progressPercentage: "95%"
     },
     {
-      Stack: "Python",
-      progressPercentage: "70%"
+      Stack: "Data Science",
+      progressPercentage: "80%"
     },
     {
-      Stack: "App development",
-      progressPercentage: "60%"
+      Stack: "Bioinformatics",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -203,6 +177,13 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+        role: "MITACS GRI",
+        company: "York University",
+        companylogo: require("./assets/images/mitacs.png"),
+        date: "May 2022 – Oct 2022",
+        desc: "Graduate Research Intern invited by Canadian Government"
+      },
      {
       role: "Research Intern",
       company: "IIT Kharagpur",
@@ -222,7 +203,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Data Annotator",
+      role: "Research Staff",
       company: "IIT Delhi",
       companylogo: require("./assets/images/iitdlogo.png"),
       date: "Feb – Oct 2021",
@@ -358,7 +339,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: ("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
@@ -369,7 +350,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: ("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi?",
   number: "Mail me at :",

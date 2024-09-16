@@ -107,20 +107,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "researchgate",
-      fontAwesomeClassname: "fa-brands fa-researchgate"
+      skillName: "nodeJS",
+      fontAwesomeClassname: "fab fa-nodejs"
     },
     {
       skillName: "react",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "brain-circuit",
-      fontAwesomeClassname: "fa-solid fa-brain-circuit"
+      skillName: "expressJS",
+      fontAwesomeClassname: "fab fa-expressjs"
     },
     {
-      skillName: "camera-retro",
-      fontAwesomeClassname: "fa-duotone fa-camera-retro"
+      skillName: "PyTorch",
+      fontAwesomeClassname: "fab fa-pytorch"
     }
   ],
   display: true
